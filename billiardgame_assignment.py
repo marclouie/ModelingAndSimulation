@@ -10,7 +10,7 @@ font = pygame.font.Font("freesansbold.ttf", 32)
 
 clock = pygame.time.Clock()
 window = pygame.display.set_mode([800,600])
-background_color = pygame.Color(240,25,255)
+background_color = pygame.Color(0,100,0)
 
 
 class Ball:
