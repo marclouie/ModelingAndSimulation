@@ -46,7 +46,7 @@ class Table:
             ball.x = self.TableRect.left + ball.size
 
         ##check right
-        if (ball.x - ball.size >self.TableRect.right):
+        if (ball.x + ball.size > self.TableRect.right):
             ball.velocity_x *= -1
             ball.x = self.TableRect.right - ball.size
         ##check bottom
